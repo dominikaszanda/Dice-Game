@@ -1,0 +1,155 @@
+/* CSS Document */
+
+body { 
+	background-color: #A2392F;
+	background-image: url(../img/dotted.png);
+	backgroud-repeat: repeat-x;
+}
+
+h1 {
+	color: #25A0CE; 
+	text-decoration: underline;
+}
+
+form {
+	color: black;
+	font-weight: bold;
+}
+
+.wrapper {
+	width:448px;
+	height:420px;
+	margin:0px auto 10px auto;
+	text-align:left;
+	border: #333 1px solid;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+	-webkit-box-shadow: -1px 1px 5px 9px #333;
+ 	-moz-box-shadow: -1px 1px 5px 9px #333);
+ 	box-shadow: -1px 1px 5px 9px #333);
+    background-color: #ffffff;
+    opacity: 0.8;
+	padding: 10px;
+
+}
+
+.outer {
+	padding:90px 50px;
+}
+
+input[type="submit"], button[type="submit"], ol li, .textleft, .textright, .round  {
+	font-weight: bold;	
+}
+
+input[type="submit"] {
+	background-color:#25A0CE;
+	font-size: 2em;
+	border: #333 2px solid;
+}
+  
+.textleft {
+	float:left;
+	padding: 10px;
+}
+
+.textright {
+	padding:10px;
+	float: right;
+	margin-right: 20px;
+}
+
+.round {
+	padding: 10px;
+	text-align: center;
+}
+
+.startbutton {
+	height: 100px;
+	width: 300px;
+	margin-left: 70px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+}
+
+.button {
+	height: 100px;
+	width: 200px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 80px;
+}
+
+button[type="submit"]{
+	height: 80px;
+	width: 200px;
+	background-color: #25A0CE;
+	border: #333 2px solid;
+	font-size: 1.5em;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+}
+
+#flex-container {
+	display: -webkit-flex;
+    display: flex;
+	padding: 0 20px;
+}
+
+#dice1 {
+	height:120px;
+	width: 120px;
+	border: 1px solid black;
+	margin: 10px 5px;
+}
+
+#dice-container1 {
+	width: 80px;
+	height: 80px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 25%;
+	font-size: 50px;
+}
+
+#dice2 {
+	height:120px;
+	width: 120px;
+	border: 1px solid black;
+	margin: 10px 5px;
+}
+
+#dice-container2 {
+	width: 80px;
+	height: 80px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 25%;
+	font-size: 50px;
+}
+
+#dice3 {
+	height:120px;
+	width: 120px;
+	border: 1px solid black;
+	margin: 10px 5px;
+}
+
+#dice-container3 {
+	width: 80px;
+	height: 80px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 25%;
+	font-size: 50px;
+}
+
+#suma {
+	height: 30px;
+	width: 30px;
+}
+
+#roundNumber {
+	height: 30px;
+	width: 30px;
+	margin: 0 auto;
+}
